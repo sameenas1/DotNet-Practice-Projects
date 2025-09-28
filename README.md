@@ -2,6 +2,8 @@ DotNet Practice Projects
 
 This repository contains a collection of simple .NET projects created for learning and practice purposes. Each project demonstrates different fundamental concepts of C# and .NET development.
 
+
+
 📂 Projects Included
 
 WebApplication3 – Basic web application setup
@@ -14,6 +16,8 @@ FileUpload – File upload functionality in ASP.NET
 
 PDFGeneration – Generate PDF files using .NET
 
+
+
 ⚡ Technologies Used
 
 C#
@@ -21,6 +25,8 @@ C#
 ASP.NET / .NET Core
 
 HTML, CSS, JavaScript
+
+
 
 🎯 Purpose
 
