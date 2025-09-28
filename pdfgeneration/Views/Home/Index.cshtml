@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Generate PDF";
+}
+
+<h2>Generate PDF</h2>
+
+<form asp-controller="Home" asp-action="GeneratePdf" method="post">
+    <label for="content">Enter text:</label>
+    <input type="text" id="content" name="content" />
+    <button type="submit">Generate PDF</button>
+</form>

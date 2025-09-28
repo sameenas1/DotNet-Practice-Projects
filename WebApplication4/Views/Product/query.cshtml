@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "query";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Count</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var group in Model)
+            {
+                <tr>
+                    <td>@group.Category</td>
+                    <td>@group.Count</td>
+                    <td>@group.TotalPrice</td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
